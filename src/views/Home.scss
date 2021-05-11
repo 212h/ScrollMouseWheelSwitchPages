@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+}
+
+body, ul, li, a, p, div {
+  /*慎删*/
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrap {
+  overflow: hidden;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  transition:top 1.5s;
+}
+
+.page {
+  /*谨删*/
+  width: 100%;
+  margin: 0;
+  font-size:35px;
+  font-weight: bolder;
+  padding-top:200px;
+}
+
+.pageUl {
+  position: fixed;
+  right: 10px;
+  bottom: 50%;
+}
+
+.active {
+  color: red;
+}
+
+.headerContainer{
+  position:fixed;
+  top:0;
+  left:0;
+  right: 0;
+  z-index: 10;
+}
